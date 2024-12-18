@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import { useDispatch, useSelector } from 'react-redux';
 import { addTodo, toggleTodo, deleteTodo } from './features/todoSlice';
 
@@ -7,10 +8,35 @@ function App() {
   const todos = useSelector((state) => state.todos);
   const dispatch = useDispatch();
 
-  const handleAddTodo = () => {
+  const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+
+  // Load todos from backend
+  useEffect(() => {
+    const fetchTodos = async () => {
+      try {
+        const response = await axios.get(`${BACKEND_URL}/todos`);
+        response.data.forEach((todo) => {
+          dispatch(addTodo(todo.text));
+        });
+      } catch (error) {
+        console.error('Error fetching todos:', error);
+      }
+    };
+    fetchTodos();
+  }, [dispatch, BACKEND_URL]);
+
+  const handleAddTodo = async () => {
     if (todoText.trim()) {
-      dispatch(addTodo(todoText));
-      setTodoText('');
+      try {
+        // Send new todo to backend
+        const response = await axios.post(`${BACKEND_URL}/todos`, {
+          text: todoText,
+        });
+        dispatch(addTodo(response.data.text));
+        setTodoText('');
+      } catch (error) {
+        console.error('Error adding todo:', error);
+      }
     }
   };
 
