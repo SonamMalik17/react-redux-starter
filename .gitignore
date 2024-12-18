@@ -26,3 +26,11 @@ yarn-error.log*
 y
 y.pub
 /client/build
+
+/client/.env.development
+/client/.env.staging
+/client/.env.production
+
+/server/.env.development
+/server/.env.staging
+/server/.env.production
