@@ -1,0 +1,173 @@
+{
+  "personalInfo": {
+    "name": "Your Name Here",
+    "title": "Your Professional Title",
+    "email": "your.email@example.com",
+    "phone": "+1-234-567-8900",
+    "location": "Your City, State/Province, Country",
+    "github": "https://github.com/yourusername",
+    "linkedin": "https://linkedin.com/in/yourusername",
+    "bio": "Your brief professional bio that appears on the hero section.",
+    "description": "Hi, I'm [Your Name], a passionate [Your Title] based in [Your Location]. I specialize in [your specializations] using modern technologies like [list your main tech stack].",
+    "education": "Your education background (e.g., Diploma/Degree in [Field] from [Institution] (completed in [Year]))",
+    "additionalInfo": "Additional information about yourself, your journey, interests, and what drives you professionally. This section can include your philosophy, approach to work, or personal interests."
+  },
+  "titles": [
+    "Your Primary Title",
+    "Alternative Title/Role",
+    "Another Professional Identity"
+  ],
+  "experiences": [
+    {
+      "company": "Company Name",
+      "position": "Your Position",
+      "duration": "Start Year - End Year (or Present)",
+      "description": [
+        "Key achievement or responsibility 1",
+        "Key achievement or responsibility 2",
+        "Key achievement or responsibility 3"
+      ]
+    },
+    {
+      "company": "Previous Company",
+      "position": "Previous Position",
+      "duration": "Start Year - End Year",
+      "description": [
+        "Key achievement or responsibility 1",
+        "Key achievement or responsibility 2",
+        "Key achievement or responsibility 3"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Project Name",
+      "slug": "project-slug",
+      "description": "Brief description of what this project does and its purpose.",
+      "role": "Your role in the project (e.g., Frontend Developer, Full Stack Developer)",
+      "stack": ["Technology1", "Technology2", "Technology3", "Technology4"],
+      "imageUrl": "https://picsum.photos/id/1/1200/1400",
+      "liveUrl": "https://your-project-live-url.com",
+      "repoUrl": "https://github.com/yourusername/project-repo",
+      "features": [
+        "Key feature 1 of your project",
+        "Key feature 2 of your project",
+        "Key feature 3 of your project",
+        "Key feature 4 of your project"
+      ],
+      "impact": "Describe the impact or results achieved by this project."
+    }
+  ],
+  "skills": {
+    "frontend": [
+      {
+        "name": "React.js",
+        "icon": "FaReact",
+        "level": "Expert",
+        "levelValue": 90,
+        "color": "#61DAFB",
+        "description": "Your experience and capabilities with this technology."
+      },
+      {
+        "name": "TypeScript",
+        "icon": "SiTypescript",
+        "level": "Advanced",
+        "levelValue": 85,
+        "color": "#3178C6",
+        "description": "Your experience and capabilities with this technology."
+      }
+    ],
+    "backend": [
+      {
+        "name": "Node.js",
+        "icon": "FaNode",
+        "level": "Intermediate",
+        "levelValue": 70,
+        "color": "#339933",
+        "description": "Your experience and capabilities with this technology."
+      }
+    ],
+    "devops": [
+      {
+        "name": "Git",
+        "icon": "FaGitAlt",
+        "level": "Advanced",
+        "levelValue": 85,
+        "color": "#F05032",
+        "description": "Your experience and capabilities with this technology."
+      }
+    ],
+    "performance": [
+      {
+        "name": "Code Optimization",
+        "icon": "FaReact",
+        "level": "Advanced",
+        "levelValue": 80,
+        "color": "#61DAFB",
+        "description": "Your experience and capabilities with this area."
+      }
+    ]
+  },
+  "navigation": [
+    { "label": "Home", "href": "/" },
+    { "label": "About", "href": "/about" },
+    { "label": "Projects", "href": "/projects" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "contact": {
+    "formPlaceholder": {
+      "name": "Your Name",
+      "email": "your.email@example.com",
+      "subject": "Subject of your message",
+      "message": "Write your message here..."
+    },
+    "formLabels": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message"
+    }
+  },
+  "seo": {
+    "siteName": "Your Name - Your Title",
+    "defaultTitle": "Your Name - Your Title Portfolio",
+    "defaultDescription": "Portfolio of [Your Name], a skilled [Your Title] specializing in [your key skills and technologies].",
+    "keywords": "Your Name, Your Title, Your Key Skills, Technologies, Portfolio",
+    "author": {
+      "name": "Your Name",
+      "url": "https://github.com/yourusername"
+    },
+    "website": {
+      "url": "https://your-deployed-website.com",
+      "ogImage": "https://your-deployed-website.com/og-image.png",
+      "twitterImage": "https://your-deployed-website.com/twitter-image.png"
+    },
+    "openGraph": {
+      "title": "Your Name - Your Title Portfolio",
+      "description": "Explore the projects and skills of [Your Name], a passionate [your title].",
+      "locale": "en_US",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Your Name - Your Title Portfolio",
+      "description": "Explore the projects and skills of [Your Name], a passionate [your title].",
+      "site": "@yourTwitterHandle",
+      "creator": "@yourTwitterHandle"
+    },
+    "pages": {
+      "about": {
+        "title": "About Me | Your Name - Your Title",
+        "description": "Learn more about [Your Name], background, skills, and experience in [your field]."
+      },
+      "contact": {
+        "title": "Contact | Your Name - Your Title",
+        "description": "Get in touch with [Your Name] for collaborations, projects, or inquiries."
+      },
+      "projects": {
+        "title": "Projects | Your Name - Your Title",
+        "description": "Explore the projects developed by [Your Name], showcasing skills in [your key technologies]."
+      }
+    }
+  }
+}
