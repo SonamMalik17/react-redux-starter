@@ -1,0 +1,399 @@
+{
+  "personalInfo": {
+    "name": "Ajay Kumar",
+    "title": "Frontend Developer",
+    "email": "ajayluhach4@gmail.com",
+    "phone": "+91-9996033865",
+    "location": "V.P.O Bhartana, Jind, Haryana, 126113, India",
+    "github": "https://github.com/AjayLuhach",
+    "linkedin": "",
+    "bio": "Passionate about building beautiful, functional, and user-friendly web experiences.",
+    "description": "Hi, I'm Ajay Kumar, a passionate Frontend Developer based in Haryana, India. I specialize in crafting engaging and user-friendly interfaces using modern web technologies like React, Next.js, and TypeScript.",
+    "education": "Diploma in Computer Engineering from CRP Rohtak (completed in 2023)",
+    "additionalInfo": "I hold a Diploma in Computer Engineering from CRP Rohtak (completed in 2023) and have since gained practical experience building real-world applications. My focus is on writing clean, efficient, and maintainable code while ensuring a great user experience across all devices. I thrive in collaborative environments and enjoy tackling complex UI challenges. From building intricate dashboards with real-time data to implementing robust design systems, I'm always eager to learn and apply new techniques to deliver high-quality results. Outside of coding, I enjoy exploring new technologies and contributing to open-source projects. Let's connect and build something amazing together!"
+  },
+  "titles": [
+    "Frontend Developer",
+    "React/Next.js Expert", 
+    "UI Craftsman"
+  ],
+  "experiences": [
+    {
+      "company": "Company A",
+      "position": "Software Engineer",
+      "duration": "2020 - Present",
+      "description": [
+        "Developed and maintained web applications.",
+        "Collaborated with cross-functional teams.",
+        "Implemented new features and optimized performance."
+      ]
+    },
+    {
+      "company": "Company B", 
+      "position": "Frontend Developer",
+      "duration": "2018 - 2020",
+      "description": [
+        "Built responsive user interfaces.",
+        "Worked with various JavaScript frameworks.",
+        "Improved code quality and maintainability."
+      ]
+    },
+    {
+      "company": "Company C",
+      "position": "Backend Developer", 
+      "duration": "2016 - 2018",
+      "description": [
+        "Built API and backend systems.",
+        "Worked with SQL databases.",
+        "Improved code quality and maintainability."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "GetStatus – Urban Renewal Platform",
+      "slug": "getstatus",
+      "description": "A comprehensive platform facilitating communication and data management for urban renewal projects, connecting multiple stakeholders.",
+      "role": "UI Developer",
+      "stack": ["Angular", "React", "MongoDB", "TypeScript", "Node.js"],
+      "imageUrl": "https://picsum.photos/id/385/1200/1400",
+      "liveUrl": "",
+      "repoUrl": "",
+      "features": [
+        "Multi-stakeholder dashboards (residents, contractors, government)",
+        "Real-time project status updates & data synchronization",
+        "Interactive map integration using govMap API principles",
+        "Permission-based UI tailored to user roles",
+        "Document management system"
+      ],
+      "impact": "Significantly improved project transparency, streamlined communication between stakeholders, and enhanced user engagement with urban renewal initiatives."
+    },
+    {
+      "title": "HRMS Internal System",
+      "slug": "hrms-internal",
+      "description": "An internal Human Resource Management System designed to manage employee data, attendance, leave, and loans efficiently.",
+      "role": "Frontend Developer",
+      "stack": ["React", "Material UI", "Express", "SQL", "JavaScript"],
+      "imageUrl": "https://picsum.photos/id/139/1200/1400",
+      "liveUrl": "",
+      "repoUrl": "",
+      "features": [
+        "Hardware-integrated attendance tracking system",
+        "Leave application and approval workflow module",
+        "Employee loan request and management system",
+        "Comprehensive admin dashboards for HR personnel",
+        "Responsive mobile-first component design",
+        "Complex data table layouts with sorting and filtering",
+        "Secure form handling and validation"
+      ],
+      "impact": "Automated key HR processes, reduced manual errors, improved attendance accuracy, and provided better insights into employee data for management."
+    },
+    {
+      "title": "Bibico – Influencer Marketing Platform",
+      "slug": "bibico",
+      "description": "A platform connecting brands with influencers for marketing campaigns, featuring localization and real-time tracking.",
+      "role": "Frontend Developer",
+      "stack": ["React", "Express", "SQL", "i18n", "JavaScript"],
+      "imageUrl": "https://picsum.photos/id/302/1200/1400",
+      "liveUrl": "",
+      "repoUrl": "",
+      "features": [
+        "Multi-language support (i18n) for international users",
+        "Advanced search and filtering for influencers and campaigns",
+        "Real-time campaign performance tracking dashboards",
+        "Admin dashboard for relationship management and platform oversight",
+        "Multi-tier role system (Admin, Brand, Influencer)",
+        "Secure API integrations for campaign data"
+      ],
+      "impact": "Enabled brands to effectively find and collaborate with influencers globally, improving campaign reach and management efficiency."
+    }
+  ],
+  "skills": {
+    "frontend": [
+      {
+        "name": "React.js",
+        "icon": "FaReact",
+        "level": "Expert",
+        "levelValue": 90,
+        "color": "#61DAFB",
+        "description": "Building complex component hierarchies, optimizing re-renders, and implementing advanced patterns like render props and custom hooks."
+      },
+      {
+        "name": "Next.js",
+        "icon": "SiNextdotjs",
+        "level": "Advanced",
+        "levelValue": 85,
+        "color": "#000000",
+        "description": "Creating optimized applications with server components, app router, and implementing advanced data fetching strategies."
+      },
+      {
+        "name": "TypeScript",
+        "icon": "SiTypescript",
+        "level": "Advanced",
+        "levelValue": 85,
+        "color": "#3178C6",
+        "description": "Implementing complex type systems, generics, and type inference for large-scale applications."
+      },
+      {
+        "name": "JavaScript",
+        "icon": "FaJs",
+        "level": "Expert",
+        "levelValue": 95,
+        "color": "#F7DF1E",
+        "description": "Deep understanding of ES6+, async patterns, DOM manipulation, and functional programming concepts."
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "SiTailwindcss",
+        "level": "Advanced",
+        "levelValue": 80,
+        "color": "#06B6D4",
+        "description": "Creating custom responsive designs with utility-first approach and extending with plugins."
+      },
+      {
+        "name": "CSS3/SCSS",
+        "icon": "FaCss3",
+        "level": "Advanced",
+        "levelValue": 85,
+        "color": "#1572B6",
+        "description": "Implementing complex layouts, animations, and responsive designs with advanced CSS features."
+      },
+      {
+        "name": "Material UI",
+        "icon": "GiMaterialsScience",
+        "level": "Intermediate",
+        "levelValue": 70,
+        "color": "#0081CB",
+        "description": "Customizing components, theming, and implementing responsive layouts with Material Design principles."
+      },
+      {
+        "name": "Bootstrap",
+        "icon": "FaBootstrap",
+        "level": "Advanced",
+        "levelValue": 80,
+        "color": "#7952B3",
+        "description": "Building responsive layouts quickly with customized Bootstrap themes and components."
+      },
+      {
+        "name": "Chakra UI",
+        "icon": "SiChakraui",
+        "level": "Intermediate",
+        "levelValue": 75,
+        "color": "#319795",
+        "description": "Creating accessible interfaces with customizable component-based design system."
+      },
+      {
+        "name": "Redux Toolkit",
+        "icon": "SiRedux",
+        "level": "Advanced",
+        "levelValue": 85,
+        "color": "#764ABC",
+        "description": "Managing complex application state, implementing middleware, and optimizing performance with RTK."
+      }
+    ],
+    "backend": [
+      {
+        "name": "Node.js",
+        "icon": "FaNode",
+        "level": "Intermediate",
+        "levelValue": 70,
+        "color": "#339933",
+        "description": "Building server-side applications with event-driven architecture and asynchronous programming."
+      },
+      {
+        "name": "Express.js",
+        "icon": "SiExpress",
+        "level": "Intermediate",
+        "levelValue": 65,
+        "color": "#000000",
+        "description": "Creating RESTful APIs with middleware, routing, and authentication systems."
+      },
+      {
+        "name": "MongoDB",
+        "icon": "SiMongodb",
+        "level": "Intermediate",
+        "levelValue": 60,
+        "color": "#47A248",
+        "description": "Designing document schemas, implementing queries, and managing database operations."
+      },
+      {
+        "name": "MySQL",
+        "icon": "SiMysql",
+        "level": "Basic",
+        "levelValue": 50,
+        "color": "#4479A1",
+        "description": "Creating relational databases, writing SQL queries, and implementing basic database operations."
+      }
+    ],
+    "devops": [
+      {
+        "name": "Git",
+        "icon": "FaGitAlt",
+        "level": "Advanced",
+        "levelValue": 85,
+        "color": "#F05032",
+        "description": "Version control workflows, branching strategies, and collaborative development practices."
+      },
+      {
+        "name": "GitHub",
+        "icon": "FaGithub",
+        "level": "Advanced",
+        "levelValue": 80,
+        "color": "#181717",
+        "description": "Managing repositories, pull requests, code reviews, and implementing CI/CD with GitHub Actions."
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker",
+        "level": "Basic",
+        "levelValue": 45,
+        "color": "#2496ED",
+        "description": "Containerizing applications and managing multi-container environments with Docker Compose."
+      },
+      {
+        "name": "AWS EC2",
+        "icon": "FaAws",
+        "level": "Basic",
+        "levelValue": 40,
+        "color": "#FF9900",
+        "description": "Deploying and scaling applications on EC2 instances with security best practices."
+      },
+      {
+        "name": "Vercel",
+        "icon": "SiVercel",
+        "level": "Intermediate",
+        "levelValue": 75,
+        "color": "#000000",
+        "description": "Deploying and configuring Next.js applications with serverless functions and edge networking."
+      },
+      {
+        "name": "Jest",
+        "icon": "SiJest",
+        "level": "Basic",
+        "levelValue": 50,
+        "color": "#C21325",
+        "description": "Writing unit and integration tests for JavaScript applications with mocking and code coverage."
+      },
+      {
+        "name": "ESLint",
+        "icon": "SiEslint",
+        "level": "Intermediate",
+        "levelValue": 70,
+        "color": "#4B32C3",
+        "description": "Configuring static code analysis with custom rules and integrating with development workflows."
+      },
+      {
+        "name": "Prettier",
+        "icon": "SiPrettier",
+        "level": "Advanced",
+        "levelValue": 80,
+        "color": "#F7B93E",
+        "description": "Maintaining consistent code formatting across projects and team environments."
+      },
+      {
+        "name": "Figma",
+        "icon": "FaFigma",
+        "level": "Intermediate",
+        "levelValue": 65,
+        "color": "#F24E1E",
+        "description": "Collaborating with designers, inspecting designs, and implementing pixel-perfect interfaces."
+      }
+    ],
+    "performance": [
+      {
+        "name": "Lazy Loading",
+        "icon": "FaReact",
+        "level": "Advanced",
+        "levelValue": 85,
+        "color": "#61DAFB",
+        "description": "Implementing component and route-based code splitting to reduce initial load times."
+      },
+      {
+        "name": "Code Splitting",
+        "icon": "SiNextdotjs",
+        "level": "Advanced",
+        "levelValue": 80,
+        "color": "#000000",
+        "description": "Breaking down applications into smaller chunks to optimize loading performance."
+      },
+      {
+        "name": "Image Optimization",
+        "icon": "FaReact",
+        "level": "Advanced",
+        "levelValue": 85,
+        "color": "#61DAFB",
+        "description": "Implementing responsive images, modern formats, and lazy loading strategies."
+      },
+      {
+        "name": "Web Vitals",
+        "icon": "SiNextdotjs",
+        "level": "Intermediate",
+        "levelValue": 75,
+        "color": "#000000",
+        "description": "Measuring and optimizing Core Web Vitals metrics for better user experience."
+      }
+    ]
+  },
+  "navigation": [
+    { "label": "Home", "href": "/" },
+    { "label": "About", "href": "/about" },
+    { "label": "Projects", "href": "/projects" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "contact": {
+    "formPlaceholder": {
+      "name": "Your Name",
+      "email": "your.email@example.com",
+      "subject": "Subject of your message",
+      "message": "Write your message here..."
+    },
+    "formLabels": {
+      "name": "Name",
+      "email": "Email", 
+      "subject": "Subject",
+      "message": "Message"
+    }
+  },
+  "seo": {
+    "siteName": "Ajay Kumar - Frontend Developer",
+    "defaultTitle": "Ajay Kumar - Frontend Developer Portfolio",
+    "defaultDescription": "Portfolio of Ajay Kumar, a skilled Frontend Developer specializing in React, Next.js, and modern UI/UX.",
+    "keywords": "Ajay Kumar, Frontend Developer, React Developer, Next.js Developer, UI/UX, Web Developer, Portfolio",
+    "author": {
+      "name": "Ajay Kumar",
+      "url": "https://github.com/AjayLuhach"
+    },
+    "website": {
+      "url": "https://your-deployed-url.com",
+      "ogImage": "https://your-deployed-url.com/og-image.png",
+      "twitterImage": "https://your-deployed-url.com/twitter-image.png"
+    },
+    "openGraph": {
+      "title": "Ajay Kumar - Frontend Developer Portfolio",
+      "description": "Explore the projects and skills of Ajay Kumar, a passionate frontend developer.",
+      "locale": "en_US",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Ajay Kumar - Frontend Developer Portfolio",
+      "description": "Explore the projects and skills of Ajay Kumar, a passionate frontend developer.",
+      "site": "@yourTwitterHandle",
+      "creator": "@yourTwitterHandle"
+    },
+    "pages": {
+      "about": {
+        "title": "About Me | Ajay Kumar - Frontend Developer",
+        "description": "Learn more about Ajay Kumar, his background, skills, and experience in frontend development."
+      },
+      "contact": {
+        "title": "Contact | Ajay Kumar - Frontend Developer",
+        "description": "Get in touch with Ajay Kumar for collaborations, projects, or inquiries."
+      },
+      "projects": {
+        "title": "Projects | Ajay Kumar - Frontend Developer",
+        "description": "Explore the projects developed by Ajay Kumar, showcasing skills in React, Next.js, Angular, and more."
+      }
+    }
+  }
+}

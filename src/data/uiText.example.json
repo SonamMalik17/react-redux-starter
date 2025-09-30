@@ -1,0 +1,80 @@
+{
+  "hero": {
+    "ctaButtons": {
+      "viewWork": "View My Work",
+      "getInTouch": "Get In Touch"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "biography": "Biography",
+    "comingSoon": "(Timeline, Skills, and other sections coming soon...)",
+    "contactInfo": "Contact Info:"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "sendMessage": "Send a Message",
+    "sendMessageDescription": "Fill out the form below, and I'll get back to you as soon as possible.",
+    "contactInformation": "Contact Information",
+    "contactDescription": "You can also reach me through these channels.",
+    "formComingSoon": "Send Message (Form Coming Soon)",
+    "sections": {
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "projects": {
+    "title": "My Projects",
+    "description": "Here's a selection of projects I've worked on, showcasing my skills in development and beyond.",
+    "searchPlaceholder": "Search projects...",
+    "filterByTech": "Filter by Tech",
+    "technologies": "Technologies",
+    "clearFilters": "Clear Filters",
+    "noProjectsFound": "No projects found matching your criteria.",
+    "projectCard": {
+      "role": "Role",
+      "techStack": "Tech Stack",
+      "liveDemo": "Live Demo",
+      "code": "Code",
+      "details": "Details"
+    },
+    "home": {
+      "title": "Explore My Work",
+      "description": "Dive deeper into the projects I've built, showcasing my skills and experience.",
+      "seeAllProjects": "See All Projects"
+    }
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "description": "A comprehensive overview of my technical expertise across various domains of development. Click on any skill to learn more about my capabilities.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend & Data",
+      "devops": "DevOps & Tools",
+      "performance": "Performance & Optimization"
+    }
+  },
+  "experience": {
+    "title": "Experience"
+  },
+  "footer": {
+    "rightsReserved": "All rights reserved.",
+    "builtWith": "Built with Next.js, Tailwind CSS, and ❤️"
+  },
+  "themes": {
+    "light": "Light",
+    "dark": "Dark",
+    "blue": "Blue",
+    "matrix": "Matrix",
+    "system": "System"
+  },
+  "ariaLabels": {
+    "githubProfile": "GitHub Profile",
+    "linkedinProfile": "LinkedIn Profile",
+    "emailUser": "Email {name}",
+    "toggleTheme": "Toggle theme"
+  }
+}
